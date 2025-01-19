@@ -1,41 +1,46 @@
-# Learning-Rate-Free-For-Object-Detection and Image Classifier.
+# Learning-Rate-Free-Learning-by-D-Adaptation for Image Classification.
 
 To Study about this in detail take a look at this research Paper Learning-Rate-Free Learning by D-Adaptation https://arxiv.org/abs/2301.07733 .
 
-I added 4 ipynb files to this repository. To Run download that ipynb files and run each cell to obtain results and compare the results.
+This project implements and evaluates the D-Adaptation strategy for image classification tasks, focusing on CIFAR-10 and CIFAR-100 datasets. The method eliminates the need for manual learning rate tuning by dynamically adjusting the learning rate to optimize model performance efficiently. The implementation compares various optimizers, including Adam, Adam with D-Adaptation, and RMSProp, analyzing their training times, accuracy, and loss metrics.
 
-2 files(FINAL_CIFAR_100WODadapt.ipynb and Final_CIFAR_10WODAdapt.ipynb) are related to cnn image classifier without D-Adaptation(WOD).
+This work is based on the research presented in my paper, which has been accepted at the 9th International Conference on Computer Vision and Image Processing (CVIP 2024).
 
-2 files(final_CIFAR_10D_Adaptation.ipynb and final_cifar100_dadap (1).ipynb) are related to cnn image classifier with D-Adaptation.
-
-
-## RESULTS FOR IMAGE CLASSIFIER USING ADAM TECHNIQUE WITHOUT D-ADAPTATION WITH CIFAR-10 DATASET with 5 epochs.
-
-![c10wod](https://github.com/aswin98855/Learning-Rate-Free-For-Object-Detection-and-Image-Classification/assets/116991167/1edf0c81-7f72-4654-a8e9-e0f034fef872)
-
-## RESULTS FOR IMAGE CLASSIFIER USING ADAM TECHNIQUE WITH D-ADAPTATION WITH CIFAR-10 DATASET with 5 epochs.
-
-![c10wd](https://github.com/aswin98855/Learning-Rate-Free-For-Object-Detection-and-Image-Classification/assets/116991167/6c096cd0-b313-427f-9e3d-be8e9fd46af8)
-
-## RESULTS FOR IMAGE CLASSIFIER USING ADAM TECHNIQUE WITHOUT D-ADAPTATION WITH CIFAR-100 DATASET with 5 epochs.
-
-![c100wod](https://github.com/aswin98855/Learning-Rate-Free-For-Object-Detection-and-Image-Classification/assets/116991167/b450e777-1317-407d-aa68-4eda6efaa10f)
-
-## RESULTS FOR IMAGE CLASSIFIER USING ADAM TECHNIQUE WITH D-ADAPTATION WITH CIFAR-100 DATASET with 5 epochs.
-
-![c100wd](https://github.com/aswin98855/Learning-Rate-Free-For-Object-Detection-and-Image-Classification/assets/116991167/4a79335a-77cc-4511-af13-e1b2fce4d676)
+If you require any help in understanding the implementation, methodology, or concepts discussed in this project, feel free to raise an issue or reach out to me through the repository's discussion section.
 
 
-## Image Classification
+## Cifar-10 Loss Comparison
 
-![ic](https://github.com/aswin98855/Learning-Rate-Free-For-Object-Detection-and-Image-Classification/assets/116991167/195b680d-c417-4e3e-8416-30827e7e0adb)
+![image](https://github.com/user-attachments/assets/15ac0934-cf29-4d78-a03e-e4beae7c56ff)
 
-## Object Detection Results with Domain Adaptations
+## Cifar-100 Loss Comparison
 
-![odr](https://github.com/aswin98855/Learning-Rate-Free-For-Object-Detection-and-Image-Classification/assets/116991167/db492c59-c934-43eb-aa5a-b58b4335c52f)
+![image](https://github.com/user-attachments/assets/934c6642-f35e-4027-bdb0-ee3f9a21551b)
 
-## Object Detection
+## Cifar-10 Accuracy Comparison
 
-![od](https://github.com/aswin98855/Learning-Rate-Free-For-Object-Detection-and-Image-Classification/assets/116991167/51a53979-11a4-436b-8c2d-007fca7d8e9e)
+![image](https://github.com/user-attachments/assets/5a5f433f-a280-48a4-8cdd-e44e3e35f533)
 
-To know more about this Take a look at our report which was added in this repository.
+## Cifar-100 Accuracy Comparison
+
+![image](https://github.com/user-attachments/assets/048b3d5f-9718-400f-9a52-3a78147cbc86)
+
+## Hyperparameter tuning on CIFAR-10 Loss
+
+![image](https://github.com/user-attachments/assets/a6d1fe70-9de0-40d3-9baf-32d6d2d576ae)
+
+## Hyperparameter tuning on CIFAR-100 Loss
+
+![image](https://github.com/user-attachments/assets/f1738b61-cd56-4fcb-a6ac-d79ceadf43f4)
+
+## Hyperparameter tuning on CIFAR-10 Accuracy
+
+![image](https://github.com/user-attachments/assets/fedd4bea-fe79-4e47-8075-a2419e895e2b)
+
+## Hyperparameter tuning on CIFAR-100 Accuracy
+
+![image](https://github.com/user-attachments/assets/f6ed58d4-eefc-42e6-badb-458e78053c18)
+
+## Training Time Comparison(Computational Overhead)
+
+![image](https://github.com/user-attachments/assets/19135cf7-175c-495d-aad2-58686aed33c4)
