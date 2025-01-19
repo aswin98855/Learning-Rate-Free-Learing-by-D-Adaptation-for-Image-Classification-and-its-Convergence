@@ -4,7 +4,7 @@ To Study about this in detail take a look at this research Paper Learning-Rate-F
 
 This project implements and evaluates the D-Adaptation strategy for image classification tasks, focusing on CIFAR-10 and CIFAR-100 datasets. The method eliminates the need for manual learning rate tuning by dynamically adjusting the learning rate to optimize model performance efficiently. The implementation compares various optimizers, including Adam, Adam with D-Adaptation, and RMSProp, analyzing their training times, accuracy, and loss metrics.
 
-This work is based on the research presented in my paper, which has been accepted at the 9th International Conference on Computer Vision and Image Processing (CVIP 2024).
+This work is based on the research presented in my paper, which has been presented at the 9th International Conference on Computer Vision and Image Processing (CVIP 2024).
 
 If you require any help in understanding the implementation, methodology, or concepts discussed in this project, feel free to raise an issue or reach out to me through the repository's discussion section.
 
