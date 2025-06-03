@@ -1,4 +1,4 @@
-# Learning-Rate-Free-Learning-by-D-Adaptation for Image Classification.
+# Learning-Rate-Free-Learning-by-D-Adaptation for Image Classification and its Convergence.
 
 To Study about this in detail take a look at this research Paper Learning-Rate-Free Learning by D-Adaptation https://arxiv.org/abs/2301.07733 .
 
